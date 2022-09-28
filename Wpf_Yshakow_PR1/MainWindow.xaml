@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Ушаков Сергей Вариант 12" Height="450" Width="400
+        ">
+    <Grid x:Name="grid1"> 
+        <Canvas>
+            <Button x:Name="button1" Width="200" Height="30" Background="LightGray" Content="Нажмите для отображения" Click="button1_Click" Canvas.Right="100" Canvas.Top="120"></Button>
+            <TextBlock x:Name="textblock1" Width="350" Height="25" Background="LightBlue" Canvas.Top="25" Canvas.Left="25"></TextBlock>
+            <TextBox x:Name="textbox1" Width="350" Height="25" Background="LightBlue" Canvas.Top="75" Canvas.Left="25"></TextBox>
+            <Label x:Name="label1" Content="Введите текст:" Canvas.Left="25" Canvas.Top="50" Width="98"/>
+            <Button x:Name="button2" Width="200" Height="30" Background="LightGray" Content="Нажмите для очищения" Click="button2_Click" Canvas.Right="100" Canvas.Top="170"/>
+        </Canvas>
     </Grid>
 </Window>

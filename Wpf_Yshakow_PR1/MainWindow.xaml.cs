@@ -24,5 +24,18 @@ namespace Wpf_Yshakow_PR1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            textblock1.Text  +=  textbox1.Text;
+           
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            grid1.Background = Brushes.Green;
+            textblock1.Text = "Начало работы";
+            textbox1.Text = "";
+        }
     }
 }
